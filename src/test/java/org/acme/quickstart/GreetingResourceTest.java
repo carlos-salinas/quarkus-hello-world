@@ -15,7 +15,7 @@ public class GreetingResourceTest {
           .when().get("/hello")
           .then()
              .statusCode(200)
-             .body(is("Webhooks work. Great job Carlos!"));
+             .body(is("Webhooks work. Great job Carlos local!"));
     }
 
 }

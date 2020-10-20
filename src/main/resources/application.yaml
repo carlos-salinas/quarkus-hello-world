@@ -1,6 +1,6 @@
 # dev – Activated when in development mode (i.e. mvn quarkus:dev)
 "%dev":
-  message: hello
+  message: Webhooks work. Great job Carlos
   environment:
     name: local
   quarkus:
@@ -8,7 +8,7 @@
       enabled: false
 # test – Activated when running tests (i.e. mvn test)
 "%test":
-  message: hello
+  message: Webhooks work. Great job Carlos
   environment:
     name: local
   quarkus:
