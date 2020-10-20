@@ -21,4 +21,10 @@ public class GreetingResource {
     public String hello() {
         return message + " " + environment + "!";
     }
+   
+    @GET
+    @Produces(MediaType.TEXT_PLAIN)
+    public String mendix() {
+        return "Cloud Unit is awesome!";
+    }
 }
